@@ -1,7 +1,7 @@
 <?php
 /*
  * Plugin Name: Twounter
- * Plugin URI: http://themesphere.com
+ * Plugin URI: http://themesphere.com/twitter-counter-wordpress-plugin.html
  * Description: Twounter returns the number of followers of a twitter user in simple text format.
  * Version: 1.0.1
  * Author: Muhammad Haris
@@ -20,8 +20,6 @@ function logger($log) {
   
   $wpdb->query('INSERT into logger(log) VALUES("' . $log . '")');
 }
-
-
 
 /**
  * Implementation of register_activation_hook
